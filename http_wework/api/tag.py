@@ -1,8 +1,7 @@
-import requests
 import yaml
 
-from api.api import Api
-from api.util import Util
+from http_wework.api.api import Api
+from http_wework.api import Util
 
 
 class Tag(Api):

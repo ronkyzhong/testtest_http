@@ -1,4 +1,4 @@
-from api.tag import Tag
+from http_wework.api.tag import Tag
 
 
 class TestTag():

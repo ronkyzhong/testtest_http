@@ -10,7 +10,7 @@ params = {
 
 
 def test_yaml():
-    with open("./tag.yaml", encoding='utf-8') as f:
+    with open("tag.yaml", encoding='utf-8') as f:
         data = yaml.safe_load(f)['create_tag']
         print(data)
         print(type(data))
